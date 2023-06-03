@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .body {
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .mobile {
+            position: absolute;
+            width: 390px;
+            background-color: #ffffff;
+        }
+
+        .unitname-box {
+            position: relative;
+            width: 104px;
+            height: 65px;
+            margin-top: 159px;
+            margin-left: 34px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid #262626;
+            background-color: #ffffff;
+        }
+
+        .unitname-text {
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 220%;
+            text-align: center;
+            color: #262626;
+            background-color: #ffffff;
+        }
+
+        .img-box {
+            width: 390px;
+            height: 487.5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: -1;
+            margin-top: -32px;
+        }
+
+        .fill>img {
+            object-fit: fill;
+        }
+
+        .paragraph-box {
+            width: 390px;
+            height: 157px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-top: 68px;
+            margin-bottom: 68px;
+            background-color: #ffffff;
+            border-width: 1px 0px;
+            border-style: solid;
+            border-color: #404040;
+        }
+
+        .paragraph-text {
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 220%;
+            text-align: center;
+            color: #404040;
+            background-color: #ffffff;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .cards-graduation {
+            width: 323px;
+            height: 468px;
+            border: 0.75px solid #262626;
+        }
+
+        .cards-taipeimuseum {
+            width: 323px;
+            height: 499px;
+            border: 0.75px solid #262626;
+        }
+
+        .cards-content {
+            flex-grow: 1;
+        }
+
+        .cards-content-h2 {
+            position: relative;
+            margin-left: 20px;
+            margin-top: 26px;
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 150%;
+            color: #262626;
+            max-width: 283px;
+            max-height: 56px;
+        }
+
+        .cards-img-graduation {
+            width: 100%;
+            height: 101%;
+            max-width: 283px;
+            max-height: 267px;
+            margin-top: 18px;
+            padding-left: 20px;
+            padding-right: 20px;
+            /*margin-bottom:23px;*/
+        }
+
+        .cards-img-taipeimuseum {
+            width: 100%;
+            height: 101%;
+            max-width: 283px;
+            max-height: 298px;
+            margin-top: 18px;
+            padding-left: 20px;
+            padding-right: 20px;
+            /*margin-bottom:23px;*/
+        }
+
+        .cards-content-p {
+            position: relative;
+            font-family: 'Noto Sans TC';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 180%;
+            color: #262626;
+            max-width: 283px;
+            margin-top: 23px;
+            max-height: 49px;
+            margin-left: 20px;
+            margin-bottom: 29px;
+        }
+    </style>
+</head>
+
+<body class="mobile">
+    <div class="unitname-box">
+        <div class="unitname-text">
+            展 覽
+        </div>
+    </div>
+    <div class="img-box fill">
+        <img src="./展覽分類頁首圖mobile.png" width="100%" height="100%">
+    </div>
+    <div class="paragraph-box">
+        <div class="paragraph-text">
+            「藝文陶冶性情，走進虛實交錯的展場空間，逃離現實世界。」
+        </div>
+    </div>
+    <div class="container">
+        <div class="cards-graduation">
+            <div class="cards-content-h2">
+                2023 華山畢業季—六大展區資訊一次看
+            </div>
+            <img class="cards-img-graduation" src="./華山畢業季mobile.png">
+            <div class="cards-content-p">
+                轉眼之間又快到鳳凰花開的季節，華山畢業季即將到來！華山畢業季是一個...
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <div class="cards-taipeimuseum">
+                <div class="cards-content-h2">
+                    藝術是生活的調味劑—北美館當期展覽簡介
+                </div>
+                <img class="cards-img-taipeimuseum" src="./北美館mobile.png">
+                <div class="cards-content-p">
+                    平日辛苦地工作，到了週末想出門散心，卻又不想到處人擠人...
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .desktop {
+            position: relative;
+            width: 1440px;
+            background-color: #ffffff;
+        }
+
+        .unitname-box {
+            width: 404px;
+            height: 117px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 160px;
+            /*等footer加上去以後這個應該60嗎*/
+        }
+
+        .unitname-text {
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 42px;
+            line-height: 117px;
+            text-align: center;
+            background-color: #ffffff;
+            color: #262626;
+            position: relative;
+            z-index: 1;
+            border: 3px solid #262626;
+        }
+
+        .img-box {
+            width: 940px;
+            height: 333px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 68px;
+            position: relative;
+            z-index: 0;
+            margin-top: -35px;
+            /*117-85=32？*/
+        }
+
+        .fill>img {
+            object-fit: fill;
+        }
+
+        .paragraph-border {
+            margin-bottom: 68px;
+            width: 940px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 68px;
+        }
+
+        .paragraph-text {
+            box-sizing: border-box;
+            height: 300px;
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600px;
+            font-size: 42px;
+            line-height: 92px;
+            text-align: center;
+            color: #404040;
+            background-color: #ffffff;
+            background: #ffffff;
+            border-width: 1px 0px;
+            border-style: solid;
+            border-color: #404040;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 23px;
+        }
+
+        .cards {
+            display: flex;
+            align-items: center;
+            width: 938px;
+            /*940px*/
+            height: 315px;
+            /*317px*/
+            background-color: #ffffff;
+            border: 0.75px solid #262626;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cards img {
+            width: 100%;
+            height: 101%;
+            object-fit: cover;
+            max-width: 444.99px;
+            max-height: 317px;
+        }
+
+        .cards-content {
+            flex-grow: 1;
+        }
+
+        .cards-content h2 {
+            position: relative;
+            margin-left: 25px;
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600px;
+            font-size: 28px;
+            line-height: 34px;
+            margin-top: 65px;
+        }
+
+        .cards-content p {
+            width: 433px;
+            height: 86px;
+            right: calc(444.99px+25px);
+            margin: left 25px;
+            margin-left: 25px;
+            top: calc(50%-86px/2+296.87px);
+            font-family: 'Noto Sans TC';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 40px;
+            color: #262626;
+            margin-top: 67px;
+            max-width: 433px;
+            max-height: 86px;
+            margin-bottom: 65px;
+        }
+    </style>
+</head>
+
+<body class="desktop">
+    <div class="unitname-box">
+        <div class="unitname-text">
+            <p>展 覽</p>
+        </div>
+    </div>
+    <div class="img-box fill">
+        <img src="./展覽分類頁首圖desktop.png" width=100%; height=100%>
+    </div>
+    <div class="paragraph-border">
+        <div class="paragraph-text">
+            「藝文陶冶性情，走進虛實交錯的展場空間，逃離現實世界。」
+        </div>
+    </div>
+    <div class="container">
+        <div class="cards">
+            <img src="./畢業季desktop.jpeg">
+            <div class="cards-content">
+                <h2>2023 華山畢業季—六大展區資訊一次看</h2>
+                <p>轉眼之間又快到鳳凰花開的季節，華山畢業季即將到來！華山畢業季是一個聚集了各校各系學生的盛會...</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cards">
+            <img src="./北美館desktop.jpg">
+            <div class="cards-content">
+                <h2>藝術是生活的調味劑—北美館當期展覽簡介</h2>
+                <p>平日辛苦地工作，到了週末想出門散心，卻又不想到處人擠人，那麼看展既不用在外耗上一天，又能...</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
