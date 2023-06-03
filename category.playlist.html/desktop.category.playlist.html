@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .desktop {
+            position: relative;
+            width: 1440px;
+            background-color: #ffffff;
+        }
+
+        .unitname-box {
+            width: 404px;
+            height: 117px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 160px;
+            /*等footer加上去以後這個應該60嗎*/
+        }
+
+        .unitname-text {
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 42px;
+            line-height: 117px;
+            text-align: center;
+            background-color: #ffffff;
+            color: #262626;
+            position: relative;
+            z-index: 1;
+            border: 3px solid #262626;
+        }
+
+        .img-box {
+            width: 940px;
+            height: 333px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 68px;
+            position: relative;
+            z-index: 0;
+            margin-top: -35px;
+            /*117-85=32？*/
+        }
+
+        .fill>img {
+            object-fit: fill;
+        }
+
+        .paragraph-box {
+            margin-bottom: 68px;
+            width: 940px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 68px;
+        }
+
+        .paragraph-text {
+            box-sizing: border-box;
+            height: 300px;
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600px;
+            font-size: 42px;
+            line-height: 92px;
+            text-align: center;
+            color: #404040;
+            background-color: #ffffff;
+            background: #ffffff;
+            border-width: 1px 0px;
+            border-style: solid;
+            border-color: #404040;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 23px;
+        }
+
+        .cards {
+            display: flex;
+            align-items: center;
+            width: 938px;
+            height: 315px;
+            background-color: #ffffff;
+            border: 0.75px solid #262626;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cards img {
+            width: 100%;
+            height: 101%;
+            object-fit: cover;
+            max-width: 444.99px;
+            max-height: 317px;
+        }
+
+        .cards-content {
+            flex-grow: 1;
+        }
+
+        .cards-content h2 {
+            position: relative;
+            margin-left: 25px;
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600px;
+            font-size: 28px;
+            line-height: 34px;
+            margin-top: 65px;
+        }
+
+        .cards-content p {
+            width: 433px;
+            height: 86px;
+            right: calc(444.99px+25px);
+            margin-left:25px;
+            left: 720px;
+            top: calc(50%-86px/2+296.87px);
+            font-family: 'Noto Sans TC';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 40px;
+            color: #262626;
+            margin-top: 67px;
+            max-width: 433px;
+            max-height: 86px;
+            margin-bottom: 65px;
+        }
+    </style>
+</head>
+
+<body class="desktop">
+    <div class="unitname-box">
+        <div class="unitname-text">
+            <p>歌 單</p>
+        </div>
+    </div>
+    <div class="img-box fill">
+        <img src="./歌單分類頁首圖desktop.png" width=100%; height=100%>
+    </div>
+    <div class="paragraph-box">
+        <div class="paragraph-text">
+            「打開歌曲列表，按下隨機播放，準備好在旋律間徜徉。」
+        </div>
+    </div>
+    <div class="container">
+        <div class="cards">
+            <img src="./荒島封面圖desktop.png">
+            <div class="cards-content">
+                <h2>荒島歌單</h2>
+                <p>如果放你到一座荒島上，只准你帶上三首歌，你會怎麼選擇？</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cards">
+            <img src="./葬禮封面圖desktop.png">
+            <div class="cards-content">
+                <h2>葬禮歌單</h2>
+                <p>如果可以，想準備一張歌單，
+                    給努力活到最後一刻的自己...</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
