@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .relateds {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .unitname-text {
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 42px;
+            line-height: 111px;
+            color: #262626;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .unitname-text>div {
+            width: 398px;
+            height: 111px;
+            border: 3px solid #262626;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 160px;
+            position: relative;
+            z-index: 1;
+            background-color: #ffffff;
+        }
+
+        .img {
+            width: 940px;
+            height: 333px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 68px;
+            position: relative;
+            z-index: 0;
+            margin-top: -35px;
+        }
+
+        .fill>img {
+            object-fit: fill;
+        }
+
+        .paragraph-border {
+            margin-bottom: 68px;
+            width: 940px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 68px;
+        }
+
+        .paragraph-text {
+            box-sizing: border-box;
+            height: 300px;
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 42px;
+            line-height: 92px;
+            text-align: center;
+            color: #404040;
+            background-color: #ffffff;
+            background: #FFFFFF;
+            border-width: 1px 0px;
+            border-style: solid;
+            border-color: #404040;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 23px;
+        }
+
+        .cards {
+            display: flex;
+            align-items: center;
+            width: 938px;
+            height: 315px;
+            background-color: #FFFFFF;
+            border: 0.75px solid #262626;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cards img {
+            width: 100%;
+            height: 101%;
+            object-fit: cover;
+            max-width: 444.99px;
+            max-height: 317px;
+        }
+
+        .cards-content {
+            flex-grow: 1;
+        }
+
+        .cards-content h2 {
+            position: relative;
+            margin-left: 25px;
+            font-family: 'Hiragino Mincho ProN';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 160%;
+            color: #262626;
+            max-width: 450px;
+            max-height: 34px;
+            margin-top: 65px;
+        }
+
+
+        .cards-content p {
+            width: 433px;
+            height: 86px;
+            right: calc(444.99px + 25px);
+            margin-left: 25px;
+            left: 720px;
+            top: calc(50% - 86px/2 + 296.87px);
+            font-family: 'Noto Sans TC';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 40px;
+            color: #262626;
+            margin-top: 67px;
+            max-width: 433px;
+            max-height: 86px;
+            margin-bottom: 65px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="unitname-text">
+            <div>
+                旅 遊
+            </div>
+        </div>
+    </div>
+    <div class="img fill">
+        <img src="旅遊圖片.jpg" width="100%" height="100%">
+    </div>
+    <div class="container">
+        <div class="cards">
+            <img src="夜景.png">
+            <div class="cards-content">
+                <h2>睡不著去哪好</h2>
+                <P>半夜睡不著,與其躺著發呆,何不到外面
+                    看看夜景數星星呢？
+                </P>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="cards">
+            <img src="浮現季.jfif">
+            <div class="cards-content">
+                <h2>2023台中浮現祭 </h2>
+                <P>台中的指標型音樂祭「浮現祭」將於二月底上演，今年
+                    以世界的冒險作為主題.....
+                </P>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
