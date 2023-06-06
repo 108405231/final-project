@@ -2,9 +2,16 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        body {
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+
         .mobile {
-            position: relative;
+            position: absolute;
             width: 390px;
             background-color: #ffffff;
         }
@@ -34,8 +41,10 @@
         }
 
         .img-box {
-            width: 390px;
-            height: 487.5px;
+            width: 100%;
+            height: auto;
+            max-width: 390px;
+            max-height: 487.5px;
             display: flex;
             justify-content: center;
             align-items: center;
