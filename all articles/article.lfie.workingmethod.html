@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <style>
+        .header {
+            position: relative;
+            width: 1440px;
+            height: 100px;
+            background-color: #FFFFFF;
+            display: flex;
+
+        }
+
+        @media(max-width:768px) {
+            .header {
+                position: relative;
+                width: 390px;
+                height: 94px;
+                background-color: #FFFFFF;
+                display: flex;
+            }
+        }
+
+        .logo {
+            top: 0px;
+            left: 0px;
+            width: 352px;
+            height: 100px;
+        }
+
+        @media(max-width:768px) {
+            .logo {
+                width: 176.47px;
+                height: 50px;
+                margin-left: 107px;
+            }
+        }
+
+
+        .textheader {
+            position: absolute;
+            font-family: "Hiragino Mincho ProN W6", serif;
+            font-size: 20px;
+            color: #3F3D3D;
+        }
+
+        @media(max-width:768px) {
+            .textheader {
+                font-size: 16px;
+                margin-left: 14px;
+            }
+        }
+
+        .textheader-lyrics {
+            top: 35px;
+            left: 857px;
+            width: 46px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textheader-lyrics {
+                top: 61px;
+                left: 14px;
+                height: 25px;
+            }
+        }
+
+        .textheader-food {
+            top: 35px;
+            left: 943px;
+            width: 46px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textheader-food {
+                top: 61px;
+                left: 68px;
+                height: 25px;
+            }
+        }
+
+        .textheader-travel {
+            top: 35px;
+            left: 1029px;
+            width: 46px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textheader-travel {
+                top: 61px;
+                left: 122px;
+                height: 25px;
+            }
+        }
+
+        .textheader-exhibition {
+            top: 35px;
+            left: 1115px;
+            width: 46px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textheader-exhibition {
+                top: 61px;
+                left: 176px;
+                height: 25px;
+            }
+        }
+
+        .textheader-home {
+            top: 35px;
+            left: 1201px;
+            width: 46px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textheader-home {
+                top: 61px;
+                left: 230px;
+                height: 25px;
+            }
+        }
+
+        .textheader-about {
+            top: 35px;
+            left: 1287px;
+            width: 83px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textheader-about {
+                top: 61px;
+                left: 284px;
+                height: 25px;
+            }
+        }
+
+        .headerline {
+            position: absolute;
+            top: 100px;
+            left: 0px;
+            width: 1440px;
+            height: 1px;
+            background-color: #808080;
+        }
+
+        @media(max-width:768px) {
+            .headerline {
+                top: 94px;
+                left: 0px;
+                width: 1440px;
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+
+
+
+
+
+</head>
+
+<body>
+    <header class="header">
+
+
+
+
+        <img class="logo"
+            src="https://github.com/108405231/final-project/blob/main/%E7%94%9F%E6%B4%BB%E5%9C%A8%E4%BB%96%E6%96%B9logo-03.png?raw=true"
+            alt="Logo">
+
+
+        <div class="textheader textheader-lyrics">歌單</div>
+        <div class="textheader textheader-food">美食</div>
+        <div class="textheader textheader-travel">旅遊</div>
+        <div class="textheader textheader-exhibition">展覽</div>
+        <div class="textheader textheader-home">居家</div>
+        <div class="textheader textheader-about">關於我們</div>
+        <div class="headerline"></div>
+
+
+
+    </header>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>article.foodie.cafe.weiyang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="article.css" />
+</head>
+
+<body class="frame">
+
+    <div class="desktop-layout border">
+
+        <!--分類・小分類-->
+        <div class="category">居家・工作法</div>
+
+        <!--文章標題-->
+        <h1>番茄鐘工作法</h1>
+
+        <!--作者與日期-->
+        <div class="author-date">文・日期 / 丁子宴・MAY 20</div>
+        <!--首圖-->
+        <figure class="hero-image">
+            <!--去github複製首圖位址，不要刪到 width和height-->
+            <img src="https://github.com/108405231/final-project/blob/main/image/%E5%B1%85%E5%AE%B6/%E7%95%AA%E8%8C%84%E9%90%98%E5%B7%A5%E4%BD%9C%E6%B3%95%E5%9C%961.png?raw=true"
+                width="100%" height="auto">
+        </figure>
+
+        <!--以下開始是首圖之後的內文，排版不一定都長一樣，可以自行替換小標h3、段落p、圖片art-img位址-->
+        <div class="article-body">
+            <p style="margin-bottom: 1em;">
+                「番茄工作法是一種時間管理技巧，旨在幫助人們更加高效地完成任務和項目。這種方法以“番茄”（tomato）為單位來劃分工作時間，每個番茄時間長約25分鐘，以此來鼓勵人們專注於任務並提高工作效率。</p>
+
+            <p style="margin-top: 1.5em;">
+                在使用番茄工作法時，需要在一個任務開始前設定一個目標，並將其寫在一張紙上。接著，需要設置一個番茄時間，即25分鐘的工作時間，在這25分鐘內，需要全神貫注地工作，並盡可能不受任何幹擾，一旦時間結束，需要停下來，並將工作記錄在紙上，然後，可以開始一個新的番茄時間，直到完成了所設定的目標。</p>
+
+            <p style="margin-bottom: 1em;">番茄工作法的核心是專注於任務，這意味著需要盡可能地減少幹擾，例如關閉電子郵件或社交媒體通知，並將手機放在一邊，在這個25分鐘內，需要將注意力集中在任務上，這可以幫助人們更加高效地完成工作，並提高工作質量。</p>
+
+            <p style="margin-top: 1.5em;">這個工作法的另一個優點是它可以幫助人們更好地規劃工作日，通過設定目標和計劃番茄時間，更好地管理時間，並確保完成需要完成的任務，此外，番茄工作法還可以幫助識別和解決工作中的問題，舉例來說，如果在多個番茄時間內都沒有完成一個任務，那麽可能需要重新考慮目標或確定更好的工作流程。</p>
+
+            <p style="margin-bottom: 1em;">總的來說，番茄工作法是一種簡單而有效的時間管理技巧，可以幫助人們更加高效地完成任務和項目，通過專注於任務和規劃時間，可以提高工作效率，並在更短的時間內完成更多的工作。</p>
+
+            <p>如果您正在尋找一種簡單而實用的時間管理方法，番茄工作法可能值得一試！</p>
+
+        </div>
+
+        <!--以下是延伸閱讀，要填同一分類的另一篇文章（居家、展覽、旅遊、歌單都各兩篇，飲食咖啡廳一組，宵夜酒吧一組）-->
+
+        <div class="frame">
+            <div class="container">
+                <div class="cards">
+                    <!--去github複製圖片位址-->
+                    <img class="cards-img-1"
+                        src="https://github.com/108405231/final-project/blob/main/image/%E5%B1%85%E5%AE%B6/%E5%B1%85%E5%AE%B6%E6%95%B4%E7%90%86%E5%9C%961.png?raw=true">
+                    <div class="cards-content">
+                        <!--替換標題-->
+                        <div class="cards-content-h2">
+                            不藏私居家整理術大公開，生活質感瞬間upupup
+                        </div>
+                        <!--與上面相同，複製相同圖片位址即可-->
+                        <img class="cards-img-2"
+                            src="https://github.com/108405231/final-project/blob/main/image/%E5%B1%85%E5%AE%B6/%E5%B1%85%E5%AE%B6%E6%95%B4%E7%90%86%E5%9C%961.png?raw=true">
+                        <!--替換內文簡介-->
+                        <div class="cards-content-p">
+                            「斷絕不需要的東西；捨去多餘的事物；脫離對物品的執著。」.....
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<footer>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        .footer {
+            position: relative;
+            bottom: 0;
+            width: 1440px;
+            height: 146px;
+            background-color: #EDEBE5;
+            display: flex;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+
+        @media(max-width:768px) {
+            .footer {
+                position: relative;
+                bottom: 0;
+                width: 200%;
+                height: 171px;
+                background-color: #EDEBE5;
+            }
+        }
+
+        .textfooter {
+            position: absolute;
+            font-family: "Hiragino Mincho ProN W6", serif;
+            font-size: 20px;
+            color: #3F3D3D;
+        }
+
+
+        @media(max-width:768px) {
+            .textfooter {
+                font-size: 14px;
+                margin-left: 24px;
+            }
+        }
+
+        .textfooter-people {
+            position: absolute;
+            top: 43px;
+            left: 59px;
+            width: 545px;
+            height: 23px;
+
+
+        }
+
+        @media(max-width:768px) {
+            .textfooter-people {
+                top: 67px;
+                left: 24px;
+                width: 346px;
+                height: 23px;
+                left: 47%;
+                transform: translateX(-53%);
+                z-index: 1;
+            }
+        }
+
+        .textfooter-teacher {
+            top: 80px;
+            left: 59px;
+            width: auto;
+            height: 23px;
+        }
+
+        @media(max-width:768px) {
+            .textfooter-teacher {
+                top: 90px;
+                left: 24px;
+                width: 129px;
+                height: 23px;
+                left: 47%;
+                transform: translateX(-53%);
+                z-index: 1;
+                margin-left: -92px;
+            }
+        }
+
+        .textfooter-list {
+            top: 35px;
+            left: 851px;
+            width: 46px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textfooter-list {
+                top: 18px;
+                width: 47.82px;
+                height: 38px;
+                left: 33%;
+                transform: translateX(-73%);
+                z-index: 1;
+                margin-left: 10px;
+            }
+        }
+
+        .textfooter-food {
+            top: 35px;
+            left: 937px;
+            width: 46px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textfooter-food {
+                top: 18px;
+                width: 47.82px;
+                height: 38px;
+                left: 39%;
+                transform: translateX(-65%);
+                z-index: 1;
+                margin-left: 10px;
+            }
+        }
+
+        .textfooter-travel {
+            top: 35px;
+            left: 1023px;
+            width: 46px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textfooter-travel {
+                top: 18px;
+                width: 47.82px;
+                height: 38px;
+                left: 45%;
+                transform: translateX(-57%);
+                z-index: 1;
+                margin-left: 10px;
+            }
+        }
+
+        .textfooter-exhibition {
+            top: 35px;
+            left: 1109px;
+            width: 46px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textfooter-exhibition {
+                top: 18px;
+                width: 47.82px;
+                height: 38px;
+                left: 51%;
+                transform: translateX(-49%);
+                z-index: 1;
+                margin-left: 10px;
+            }
+        }
+
+        .textfooter-home {
+            top: 35px;
+            left: 1195px;
+            width: 46px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textfooter-home {
+                top: 18px;
+                width: 47.82px;
+                height: 38px;
+                left: 57%;
+                transform: translateX(-41%);
+                z-index: 1;
+                margin-left: 10px;
+            }
+        }
+
+        .textfooter-about {
+            top: 35px;
+            left: 1281px;
+            width: 83px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textfooter-about {
+                top: 18px;
+                width: 86.29px;
+                height: 38px;
+                left: 65%;
+                transform: translateX(-31%);
+                z-index: 1;
+                margin-left: 10px;
+            }
+        }
+
+        .textfooter-copy {
+            top: 80px;
+            left: 1079px;
+            width: 312px;
+            height: 30px;
+        }
+
+        @media(max-width:768px) {
+            .textfooter-copy {
+                top: 124px;
+                left: 24px;
+                width: 200px;
+                height: 30px;
+                left: 47%;
+                transform: translateX(-53%);
+                z-index: 1;
+                margin-left: -55px;
+            }
+        }
+
+        .footerline {
+            position: absolute;
+            top: 56px;
+            left: 25px;
+            height: 0px;
+            width: 400px;
+            background-color: #808080
+        }
+
+        @media(max-width:768px) {
+            .footerline {
+                height: 1px;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 1;
+            }
+        }
+    </style>
+
+</footer>
+
+<body>
+
+    <footer class="footer">
+
+
+        <div class="textfooter textfooter-people">編輯團隊｜姚宛妤、丁子宴、許為瑄、藍奕翗、洪靜芬</div>
+        <div class="textfooter textfooter-teacher">指導老師｜李法賢</div>
+        <div class="textfooter textfooter-list">歌單</div>
+        <div class="textfooter textfooter-food">美食</div>
+        <div class="textfooter textfooter-travel">旅遊</div>
+        <div class="textfooter textfooter-exhibition">展覽</div>
+        <div class="textfooter textfooter-home">居家</div>
+        <div class="textfooter textfooter-about">關於我們</div>
+        <div class="textfooter textfooter-copy">Copyright © 2023 生活在他方</div>
+        <div class="footerline"></div>
+
+
+</body>
+
+</html>
