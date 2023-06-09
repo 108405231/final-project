@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+   
+<style>
+        .header {
+            position:relative;
+            width: 1440px;
+            height: 100px;
+            background-color: #FFFFFF;
+            display: flex;
+           
+        }
+        @media(max-width:768px) {
+        .header {
+          position:relative;
+          width: 390px;
+          height: 94px;
+          background-color: #FFFFFF;
+          display:flex;}
+        }
+        .logo {
+            top: 0px;
+            left: 0px;
+            width: 352px;
+            height: 100px;
+        }
+        @media(max-width:768px) {
+        .logo {width: 176.47px;
+               height: 50px;
+               margin-left:107px;
+              }
+        }
+
+
+        .textheader {
+            position: absolute;
+            font-family: "Hiragino Mincho ProN W6", serif;
+            font-size: 20px;
+            color: #3F3D3D;
+        }
+        @media(max-width:768px) {
+            .textheader {
+            font-size:16px;
+            margin-left:14px;
+            }
+        }
+        .textheader-lyrics {
+            top: 35px;
+            left: 857px;
+            width: 46px;
+            height: 38px;
+        }
+
+        @media(max-width:768px) {
+            .textheader-lyrics{
+            top: 61px;
+            left: 14px;
+            height: 25px;}
+        }
+
+        .textheader-food {
+            top: 35px;
+            left: 943px;
+            width: 46px;
+            height: 38px;
+        }
+        @media(max-width:768px) {
+            .textheader-food{
+            top: 61px;
+            left: 68px;
+            height: 25px;}
+        }
+        .textheader-travel {
+            top: 35px;
+            left: 1029px;
+            width: 46px;
+            height: 38px;
+        }
+        @media(max-width:768px) {
+        .textheader-travel{
+            top: 61px;
+            left: 122px;
+            height: 25px;}
+        }
+        .textheader-exhibition {
+            top: 35px;
+            left: 1115px;
+            width: 46px;
+            height: 38px;
+        }
+        @media(max-width:768px) {
+        .textheader-exhibition{
+            top: 61px;
+            left: 176px;
+            height: 25px;}
+        }
+        .textheader-home {
+            top: 35px;
+            left: 1201px;
+            width: 46px;
+            height: 38px;
+        }
+        @media(max-width:768px) {
+        .textheader-home{
+            top: 61px;
+            left: 230px;
+            height: 25px;}
+        }
+        .textheader-about {
+            top: 35px;
+            left: 1287px;
+            width: 83px;
+            height: 38px;
+        }
+        @media(max-width:768px) {
+        .textheader-about{
+            top: 61px;
+            left: 284px;
+            height: 25px;}
+        }
+        .headerline {
+            position: absolute;
+            top: 100px;
+            left: 0px;
+            width: 1440px;
+            height: 1px;
+            background-color: #808080;
+        }
+
+        @media(max-width:768px){ 
+            .headerline{
+            top: 94px;
+            left: 0px;
+            width: 1440px;
+            transform: translateX(-50%);}
+         }
+   </style>
+   
+   
+
+
+
+</head>
+<body>
+    <header class="header">
+        
+        
+
+       
+<img class="logo" src="https://github.com/108405231/final-project/blob/main/%E7%94%9F%E6%B4%BB%E5%9C%A8%E4%BB%96%E6%96%B9logo-03.png?raw=true" alt="Logo">
+        
+        
+<div class="textheader textheader-lyrics">歌單</div>
+<div class="textheader textheader-food">美食</div>
+<div class="textheader textheader-travel">旅遊</div>
+<div class="textheader textheader-exhibition">展覽</div>
+<div class="textheader textheader-home">居家</div>
+<div class="textheader textheader-about">關於我們</div>
+<div class="headerline"></div>
+    
+    
+   
+</header>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>article.foodie.cafe.weiyang</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="article.css" />
+</head>
+<body class="frame">
+
+    <div class="desktop-layout border">
+        
+        <!--分類・小分類-->
+        <div class="category">展覽・北美館</div>
+
+        <!--文章標題-->
+        <h1>藝術是生活的調味劑—北美館當期展覽簡介</h1>
+
+        <!--作者與日期-->
+        <div class="author-date">文・日期 / 姚宛妤・2023/5/5</div>
+        <!--首圖-->
+        <figure class="hero-image">
+            <!--去github複製首圖位址，不要刪到 width和height-->
+            <!--<img src="https://github.com/108405231/final-project/blob/main/image/%E5%B1%95%E8%A6%BD/%E5%8C%97%E7%BE%8E%E9%A4%A8%E5%B1%95%E8%A6%BD%E5%9C%96%E6%AA%94/%E8%B7%9F%E4%BD%A0%E8%AA%AA%E5%80%8B%E6%95%85%E4%BA%8B%EF%BC%9A%E5%BE%88%E4%B9%85%E5%BE%88%E4%B9%85%E4%BB%A5%E5%BE%8C.jpg?raw=true" width="100%" height="auto">
+        </figure>-->
+
+         <!--以下開始是首圖之後的內文，排版不一定都長一樣，可以自行替換小標h3、段落p、圖片art-img位址-->
+        <div class="article-body">
+            <p>平日辛苦地工作，到了週末想出門散心，卻又不想到處人擠人，那麼看展既不用在外耗上一天，又能放鬆充電，無疑是個好選擇。本文精選三場臺北市立美術館當期展覽，如果想為忙碌生活注入一點生氣，不妨參考以下內容，趁著空閒時間到北美館走走，讓藝術作品療癒身心，一起成為心靈富人！</p>
+            <h3>跟你說個故事:很久很久以後</h3>
+            <p>北美館兒童藝術教育中心推出教育計畫「跟你說個故事:很久很久以後」，以「故事／敘事」為基礎，邀請親子同樂。透過繪畫、影像、劇場等形式，讓參展民眾沉浸於作品當中，一同參與故事的走向，而李文政、何孟娟、鄭然斗等7位展出藝術家，則藉視覺影像手法編織故事，給予民眾特別的觀展體驗。展期至8月27日，除了展覽外，也規劃親子學習區，並舉辦數場故事日活動，內容相當豐富。</p>
+            <figure class="article-image">
+                <img src="https://github.com/108405231/final-project/blob/main/image/%E5%B1%95%E8%A6%BD/%E5%8C%97%E7%BE%8E%E9%A4%A8%E5%B1%95%E8%A6%BD%E5%9C%96%E6%AA%94/%E8%B7%9F%E4%BD%A0%E8%AA%AA%E5%80%8B%E6%95%85%E4%BA%8B%EF%BC%9A%E5%BE%88%E4%B9%85%E5%BE%88%E4%B9%85%E4%BB%A5%E5%BE%8C.jpg?raw=true" width="100%" height="auto">
+            </figure>
+
+            <h3>勒內．布里：視覺爆炸</h3>
+            <p>此次展覽與瑞士洛桑愛利社攝影博物館合作，展出已故攝影師「勒內．布里」作品，包括古巴革命領袖切·格瓦拉叼著雪茄的照片、畢卡索肖像，以及其他二十世紀重大歷史時刻的紀錄照片。本期展覽至6月18日，是勒內．布里去世後首次亞洲回顧個展，預計展出超過500件攝影作品和筆記、書籍書信等文件檔案。</p>
+            <figure class="article-image">
+                <img src="https://github.com/108405231/final-project/blob/main/image/%E5%B1%95%E8%A6%BD/%E5%8C%97%E7%BE%8E%E9%A4%A8%E5%B1%95%E8%A6%BD%E5%9C%96%E6%AA%94/%E5%8B%92%E5%85%A7%E5%B8%83%E9%87%8C%20%E8%A6%96%E8%A6%BA%E7%88%86%E7%82%B8.jpg?raw=true" width="100%" height="auto">
+            </figure>
+
+            <h3>活檔案I——影像力：自立報系1985-1994攝影專題｜文獻展</h3>
+            <p>文獻展自5月6日至10月15日，延伸自《現代美術》季刊207期，專訪時任自立晚報主編周本驥與攝影部主任劉振祥，在1988至1994年的攝影專題和攝影家許伯馨的報紙收藏。展覽內容包括自立報系攝影專題版面、數位攝影專題版面、攝影書籍以及專題座談活動等。藉由此次文獻展可以觀察臺灣攝影歷史的變化，也能觀賞過往攝影記者們鏡頭下的社會議題面貌，更希望喚起大眾對過往報導影像的關注與研究。</p>
+            <figure class="article-image">
+                <img src="https://github.com/108405231/final-project/blob/main/image/%E5%B1%95%E8%A6%BD/%E5%8C%97%E7%BE%8E%E9%A4%A8%E5%B1%95%E8%A6%BD%E5%9C%96%E6%AA%94/%E8%87%AA%E7%AB%8B%E5%A0%B1%E7%B3%BB%E6%B4%BB%E6%AA%94%E6%A1%88%E6%96%87%E7%8D%BB%E5%B1%95.png?raw=true" width="100%" height="auto">
+            </figure>
+
+            <p>以上資訊整理自北美館官方網站，展期、活動詳情亦可至官網查詢：<a href="https://www.tfam.museum/index.aspx?ddlLang=zh-tw" style="font-family: 'Noto Sans TC';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 160%;
+                color: #262626;
+                width: 800px;
+                margin-top: 0px;
+                margin-bottom: 30px;">https://www.tfam.museum/index.aspx?ddlLang=zh-tw</a></p>
+        </div>
+    </div>
+
+    <div class="Recent-post">Recent Post</div>
+
+    <!--以下是延伸閱讀，要填同一分類的另一篇文章（居家、展覽、旅遊、歌單都各兩篇，飲食咖啡廳一組，宵夜酒吧一組）-->
+
+    <div class="frame">
+        <div class="container">
+            <div class="cards">
+                <!--去github複製圖片位址-->
+                <img class="cards-img-1"
+                     src="https://github.com/108405231/final-project/blob/main/image/%E5%B1%95%E8%A6%BD/%E7%95%A2%E6%A5%AD%E5%AD%A3%E5%9C%96%E6%AA%94/%E5%9C%96%E4%B8%80%20%E7%95%A2%E6%A5%AD%E5%AD%A3.jpeg?raw=true">
+                <div class="cards-content">
+                    <!--替換標題-->
+                    <div class="cards-content-h2">
+                        2023 華山畢業季—六大展區資訊一次看
+                    </div>
+                    <!--與上面相同，複製相同圖片位址即可-->
+                    <img class="cards-img-2"
+                    src="https://github.com/108405231/final-project/blob/main/image/%E5%B1%95%E8%A6%BD/%E7%95%A2%E6%A5%AD%E5%AD%A3%E5%9C%96%E6%AA%94/%E5%9C%96%E4%B8%80%20%E7%95%A2%E6%A5%AD%E5%AD%A3.jpeg?raw=true">
+                    <!--替換內文簡介-->
+                    <div class="cards-content-p">
+                        轉眼之間又快到鳳凰花開的季節，華山畢業季即將到來！華山畢業季...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<footer>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html, body {
+        height: 100%;
+    }
+   
+    .footer {
+        position: relative;
+        bottom:0;
+        width: 1440px;
+        height: 146px;
+        background-color: #EDEBE5;
+        display: flex;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    @media(max-width:768px) {
+        .footer {
+            position: relative;
+            bottom: 0;
+            width: 200%;
+            height: 171px;
+            background-color: #EDEBE5;
+        }
+    }
+    .textfooter{
+            position: absolute;
+            font-family: "Hiragino Mincho ProN W6", serif;
+            font-size: 20px;
+            color: #3F3D3D;}
+            
+           
+        @media(max-width:768px) {
+        .textfooter {
+        font-size: 14px;
+           margin-left:24px;
+       }
+        }
+        .textfooter-people {
+            position: absolute;
+            top: 43px;
+            left:59px;
+            width: 545px;
+            height: 23px;
+            
+            
+        }
+        @media(max-width:768px) {
+        .textfooter-people  {
+            top: 67px;
+            left: 24px;
+            width: 346px;
+            height: 23px;
+            left: 47%;
+            transform: translateX(-53%);
+            z-index: 1;}
+        }
+        .textfooter-teacher {
+            top: 80px;
+            left: 59px;
+            width: auto;
+            height: 23px;
+        }
+        @media(max-width:768px) {
+        .textfooter-teacher  {
+            top: 90px;
+            left: 24px;
+            width: 129px;
+            height: 23px;
+            left: 47%;
+            transform: translateX(-53%);
+            z-index: 1;
+            margin-left:-92px;}
+        } 
+
+        .textfooter-list {
+            top: 35px;
+            left: 851px;
+            width: 46px;
+            height: 38px;
+        }
+        @media(max-width:768px) {
+        .textfooter-list {
+            top: 18px;
+            width: 47.82px;
+            height: 38px;
+            left: 33%;
+            transform: translateX(-73%);
+            z-index: 1;
+        margin-left:10px;}}
+        
+        .textfooter-food {
+            top: 35px;
+            left: 937px;
+            width: 46px;
+            height: 38px;
+        }
+        @media(max-width:768px) {
+        .textfooter-food {
+            top: 18px;
+            width: 47.82px;
+            height: 38px;
+            left: 39%;
+            transform: translateX(-65%);
+            z-index: 1;
+            margin-left:10px;}}
+        
+        .textfooter-travel {
+            top: 35px;
+            left: 1023px;
+            width: 46px;
+            height: 38px;
+        }
+        @media(max-width:768px) {
+        .textfooter-travel {
+            top: 18px;
+            width: 47.82px;
+            height: 38px;
+            left: 45%;
+            transform: translateX(-57%);
+            z-index: 1;
+            margin-left:10px;}}
+     
+        .textfooter-exhibition {
+            top: 35px;
+            left: 1109px;
+            width: 46px;
+            height: 38px;
+        }
+        @media(max-width:768px) {
+        .textfooter-exhibition {
+            top: 18px;
+            width: 47.82px;
+            height: 38px;
+            left: 51%;
+            transform: translateX(-49%);
+            z-index: 1;
+            margin-left:10px;}}
+        
+        .textfooter-home {
+            top: 35px;
+            left: 1195px;
+            width: 46px;
+            height: 38px;
+        }
+        @media(max-width:768px) {
+        .textfooter-home {
+            top: 18px;
+            width: 47.82px;
+            height: 38px;
+            left: 57%;
+            transform: translateX(-41%);
+            z-index: 1;
+            margin-left:10px;}}
+        
+        .textfooter-about {
+            top: 35px;
+            left: 1281px;
+            width: 83px;
+            height: 38px;
+        }
+        @media(max-width:768px) {
+        .textfooter-about{
+            top: 18px;
+            width: 86.29px;
+            height: 38px;
+            left: 65%;
+            transform: translateX(-31%);
+            z-index: 1;
+            margin-left:10px;}}
+        
+        .textfooter-copy {
+            top: 80px;
+            left: 1079px;
+            width: 312px;
+            height: 30px;
+        }
+        @media(max-width:768px) {
+        .textfooter-copy  {
+            top: 124px;
+            left: 24px;
+            width: 200px;
+            height: 30px;
+            left: 47%;
+            transform: translateX(-53%);
+            z-index: 1;
+            margin-left:-55px;}
+        }
+    .footerline{
+        position: absolute;
+        top: 56px;
+        left: 25px;
+        height:0px;
+        width: 400px;
+        background-color:#808080
+    }
+    @media(max-width:768px) {
+        .footerline {
+        height:1px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+       }
+    }
+    
+    
+    </style>
+
+</footer>
+<body>
+   
+    <footer class="footer">
+        
+
+<div class="textfooter textfooter-people">編輯團隊｜姚宛妤、丁子宴、許為瑄、藍奕翗、洪靜芬</div>
+<div class="textfooter textfooter-teacher">指導老師｜李法賢</div>
+<div class="textfooter textfooter-list">歌單</div>
+<div class="textfooter textfooter-food">美食</div>
+<div class="textfooter textfooter-travel">旅遊</div>
+<div class="textfooter textfooter-exhibition">展覽</div>
+<div class="textfooter textfooter-home">居家</div>
+<div class="textfooter textfooter-about">關於我們</div>
+<div class="textfooter textfooter-copy">Copyright © 2023  生活在他方</div>
+<div class="footerline"></div>
+    
+
+</body>
+</html>
